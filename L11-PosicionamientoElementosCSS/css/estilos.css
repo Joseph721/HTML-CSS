@@ -1,0 +1,158 @@
+body {
+  background-color: rgb(183, 239, 247);
+}
+h1 {
+  text-align: center;
+  color: #457b9d;
+}
+div.contenedor {
+ 
+  width: 80%;
+  height: 20%;
+  /* overflow: hidden; SE OCULTA TODO LO QUE SALE DEL ELEMENTO DIV */
+  /* overflow: scroll; SE MUESTRA UNA BARRA PARA EL TEXTO */
+  /* overflow: auto; SE MUESTRA UNA BARRA PERO SOLO PARA EL TEXTO NECESAIRO */
+  overflow: auto;
+  margin: auto;
+  border: 3px dashed #002fff;
+}
+span{
+  font-weight: bolder;
+  font-style: italic;
+  font-size: large;
+  color:#fff;
+  background-color: #191b1b;
+  border: 1px solid #457b9d;
+  height: 50px;
+  padding: 5px;
+  display: inline-block;
+}
+.menu{
+  list-style-type: none;
+  text-align: center;
+  background-color: darkturquoise;
+  position: sticky;
+}
+.menu li{
+  display: inline-block;
+  padding: 15px;
+  margin: 20px;
+  background-color: #e63946;
+  border-radius: 5px;
+}
+a{
+  text-decoration: none;
+  color: #f1faee;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*
+div.contenedor.flotado{
+  float: left;
+}
+
+div.contenedor.flotado.contenedor1{
+  border: 3px dashed greenyellow;
+}
+div.contenedor.flotado.contenedor2{
+  border: 3px dashed rgb(17, 179, 255);
+  float: right;
+}
+
+div.contenedor.contenedor3{
+  clear: both;
+  border: 3px dashed darkorange;
+  margin: auto;
+}
+*/
+
+
+/*
+img.imagen {
+  width: 100%;
+  opacity: 0.3;
+}
+div.centro {
+  position: absolute;
+  top: 50%;
+  border: 1px solid blue;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*/
+/* 
+div.relativo{
+    max-width: 300px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 3px solid cornflowerblue;
+}
+*/
+
+/*
+div.estatico{
+    position: static;
+    top: 10px;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+}
+div.relativo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+}
+div.absoluto{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 112px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+    z-index: -1;
+}
+
+*/
+
+/*
+div{
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 20px;
+    top: 0;
+    border: 3px solid firebrick;
+}
+*/
+
+/* 
+div{
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 3px solid firebrick;
+   
+}
+
+*/
+/* 
+div{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+    background-color: rgb(108, 231, 7);
+    font-size: 20px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+*/

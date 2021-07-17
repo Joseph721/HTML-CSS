@@ -1,0 +1,25 @@
+h1 {
+  color: #2b2d42;
+  text-align: center;
+}
+body {
+  background-color: #8d99ae;
+}
+p {
+  color: black;
+  background-color:transparent;
+  /* background-color: crimson; */
+  padding: 15px;
+  border: 10px solid #ef233c;
+  /*
+   margin-top: 40px;
+   margin-right: 10px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+   */
+  /*     Top-Rigth-Bottom-Left*/
+  margin: 40px 10px 20px 10px;
+  margin: auto 50px;
+  text-align: center;
+  
+}

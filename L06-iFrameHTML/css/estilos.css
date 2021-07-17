@@ -1,0 +1,27 @@
+
+/* El símbolo # va a ser un identificador unico dentro de toda la pagina html.
+Solamente puede haber un elemento con este simbolo en todo el archivo de .css*/
+#titulo_principal{
+  color: #f72585;
+  text-align: center;
+  margin: 15px;
+}
+h2 {
+  color: #3f37c9;
+}
+p {
+  color: #457b9d;
+}
+/* Clase de CSS*/
+/* Se le pone . y luego nombre de la clase para poder utilizar solo estos estilos en un 
+especificado div */
+.tarjeta {
+  border: 10px solid #560bad;
+  background-color: #f1faee;
+  text-align: center;
+  margin:  15px 100px;
+  padding: 15px;
+}
+.titulo{
+    color: #f72585;
+}

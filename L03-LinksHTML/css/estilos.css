@@ -1,0 +1,22 @@
+h1 {
+  color: #560bad;
+}
+/* EVENTOS o Estados */
+/* link: Cuando todavia no hemos dado clic sobre este elemento */
+/* visited: Cuando ya demos clic a nuestro link */
+a:link,
+a:visited {
+  background-color: #b5179e;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+/* hover: Cuando posicionamos el cursor */
+/* active: cuando estamos dando clic al link*/
+
+a:hover,
+a:active {
+  background-color: #f72585;
+}

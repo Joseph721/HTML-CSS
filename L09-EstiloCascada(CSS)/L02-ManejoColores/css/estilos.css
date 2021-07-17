@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+.rojo {
+  border: 10px solid firebrick;
+  /* background-color: firebrick; */
+}
+.rosa {
+  border: 10px dashed hotpink;
+  /* background-color: hotpink; */
+}
+.amarillo {
+  border: 10px double yellow;
+/*  background-color: gold; */
+}
+.azul {
+  border: 10px dotted hsl(174, 72%, 56%);
+ /* background-color: turquoise; */
+}

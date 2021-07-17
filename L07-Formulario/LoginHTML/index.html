@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFormularios en HTML</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <!--<form  method="POST">-->
+    <!--<target="_blank"> Para que la información de respuesta se despliegue en otra ventana.-->
+    <!--<target="_self"> Trabaja por defecto y la respuesta se despliega en la misma ventana.-->
+    <!--<autocomplete="off"> Desactivar el autocompletado de los formularios.-->
+    <form action="mi_servidor" autocomplete="off">
+        <fieldset>
+            <legend>Datos Persona</legend>
+
+            <label for="id_Persona">Id Persona: </label><br/>
+            <input type="text" id="id_Persona" name="id_Persona" readonly="true" value="100"/><br/>
+
+            <!--Para enviar parámetros ocultos se utiliza type="hidden"-->
+            <input type="hidden" id="sistema" name="sistema" value="SAP"/>
+
+            <label for="txtNombre">Nombre: </label><br/>
+            <input type="text" id="txtNombre" name="txtNombre" placeholder="Escribe tu nombre" required="true"/><br/>
+
+            <label for="txtApellido">Apellido: </label><br/>
+            <input type="text" id="txtApellido" name="txtApellido" placeholder="Escribe tu apellido" required="true"/><br/>
+
+            <label for="txtEmail">Email: </label><br/>
+            <input type="email" id="txtEmail" name="txtEmail"/><br/>
+
+            <label for="txtPassword">Contraseña: </label><br/>
+            <input type="password" id="txtPassword" name="txtPassword" required="true"/><br/>
+
+            <label for="txtEdad">Edad: </label><br/>
+            <input type="number" id="txtEdad" name="txtEdad"/><br/>
+
+            <label>Genero: </label><br/>
+            <input type="radio" id="femenino" name="genero" value="femenino"/>
+            <label for="femenino">Femenino</label><br/>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label><br/>
+
+            <label>Género Música Favorita</label><br/>
+            <input type="checkbox" id="clasica" name="musica" value="clasica"/>
+            <label for="clasica">Clásica</label><br/>
+            <input type="checkbox" id="jazz" name="musica" value="jazz"/>
+            <label for="jazz">Jazz</label><br/>
+
+            <label for="autos">Marca auto favorita: </label><br/>
+            <select name="autos" id="autos">
+                <option value="volvo">Volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="audi" selected="true">Audi</option>
+            </select><br/>
+
+            <label for="comentario">Comentarios: </label><br/>
+            <textarea name="comentario" id="comentario" cols="30" rows="2"
+            >Este es mi comentario
+            </textarea>
+
+            <br/>
+
+            <input type="submit" value="Enviar"/>
+            <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
+            <input type="reset" value="Restablecer">
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
+<!--Si queremos capturar datos se utiliza un elemento de tipo "Input"-->
+
+<!--Con "type" especificamos el tipo de elemento que vamos a manejar -->
+
+<!--La etiqueta "for" relaciona el id para poder seleccionarlo-->
+
+<!--El atributo "name" permite a un script acceder a su contenido.
+Es preferible utilizar los dos atributos con el mismo identificador,
+ por motivos de compatibilidad.-->
+
+<!--El atributo "placeholder" permite visualizar lo que el usuario debe
+de capturar en el formulario. -->
+
+<!--El atributo "required" funciona por si algun dato del formulario 
+aun no tiene información.-->
+
+<!--El artributo "novalidate" evita que los datos del formulario se validen.-->
+<!--Con el atributo step="any" se acepta cualquier tipo de volar numérico.-->
+<!--El atributo "select" el usuario puede seleccionar una o varias opciones de
+un listado-->
+
+<!--El elemento "fieldset" permite organizar en grupos los campos de un formulario.-->
+<!--El atributo de "action" en <form> permitie agregar una url hacia donde 
+    se va a dirigir la información.-->

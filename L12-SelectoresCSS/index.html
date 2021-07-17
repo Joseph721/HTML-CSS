@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectores combinados en CSS</title>
+    <link rel="stylesheet" href="/L12-SelectoresCSS/css/estilos.css" />
+  </head>
+  <body>
+    <h1>Selectores combinados en CSS</h1>
+    <div class="contenedor descendiente">
+      Selectores descendientes (en cualquier nivel interno).
+      <p>Primer renglón</p>
+      <p>Segundo renglón</p>
+      <section>
+        <p>Tercer renglón</p>
+      </section>
+    </div>
+
+    <div class="contenedor hijo">
+      Selectores hijos (child)
+      <p>Primer renglón</p>
+      <p>Segundo renglón</p>
+      <section>
+        <p>Tercer renglón</p>
+      </section>
+
+      <!--
+       <div>
+        <p>Cuarto renglón</p>
+       </div>
+        <p>Quinto renglón</p>
+      -->
+    </div>
+    <div class="contenedor adyacente">
+      Selector Adyacente:
+      <p>Primer renglón</p>
+    </div>
+    <p>Segundo renglón</p>
+    <p>Tercer renglón</p>
+
+    <div class="contenedor hermano">
+      Selector Hermano (Sibling):
+      <p>Primer renglón</p>
+    </div>
+    <p>Segundo renglón</p>
+    <p>Tercer renglón</p>
+  </body>
+
+
+</html>
+
+<!--
+  SELECTORES COMBINADOS:
+  -Descendiente: UNA VEZ SELECCIONADO EL ELEMENTO SE VA A APLICAR EL ESTILO
+  QUE HALLAMOS CONFIGURADO PARA TODOS LOS ELEMENTOS SIN IMPORTAR SI DIRECTOS
+  O INDIRECTOS (Elementos hijos [dentro de otros elementos]).
+
+  -Child (Tipo hijo): SOLAMENTE VA A SELECCIONAR A LOS ELEMENTOS QUE SON HIJOS
+  DIRECTOS DE LA ETIQUETA.
+
+  -Sibling (Adjacente): UNICAMENTE VA A SELECCIONAR LOS ELEMENTOS QUE ESTEN 
+  DIRECTAMENTE DESPUES DEL ELEMENTO QUE HEMOS CONFIGURADO. 
+
+  -Sibling (Hermano): SIMBOLO DE TILDE (~) LE AGREGA EL BACKGROUND A TODOS LOS ELEMENTOS QUE ESTEN 
+  AL MISMO NIVEL QUE EL ELEMENTO (DIV). Hermano.
+-->
+
+
+<!--
+
+
+-->

@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+  color: crimson;
+}
+div.contenedor {
+  width: 80%;
+  height: 20%;
+  margin: auto;
+  border: 3px solid #a8dadc;
+  padding: 15px;
+  color: #457b9d;
+}
+div.contenedor.descendiente p{
+  background-color: #fdffb6;
+}
+
+/*CON EL SIMBOLO (>) SE DICE QUE SOLO SE SELECCIONAN LOS HIJOS 
+DIRECTOS DE LA ETIQUETA DIV. (Child). */ 
+div.contenedor.hijo > p{
+  background-color: #ffc6ff;
+}
+
+/*CON EL SIMBOLO DE (+) SE INDICA QUE SOLAMENTE SE VAN A SELECCIONAR LOS ELEMENTOS
+DE TIPO PARRAFO QUE ESTEN EXACTAMENTE DESPUES DEL ELEMENTO DE TIPO (DIV) QUE
+ESTAMOS INFICANDO. Sibling(Adjacente). */
+div.contenedor.adyacente + P{
+  background-color: #caffbf;
+}
+
+/*SIMBOLO DE TILDE (~) LE AGREGA EL BACKGROUND A TODOS LOS ELEMENTOS QUE ESTEN 
+AL MISMO NIVEL QUE EL ELEMENTO (DIV). Hermano. */
+
+div.contenedor.hermano ~ p{
+  background-color: #9bf6ff;
+}
