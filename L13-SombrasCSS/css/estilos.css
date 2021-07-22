@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+
+    /* El primer parametro de shadow(sombra) es sobre el eje x  */
+
+    /* text-shadow: (eje x) (eje vertical) (blur = difuminado)     ); */
+    text-shadow: 2px 2px 2px grey;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+}
