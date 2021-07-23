@@ -23,7 +23,7 @@ div.contenedor {
   /* align-content: center; */
 
   /* VALOR POR DEFAULT DE align-items: stretch;  */
-  align-items: stretch;
+  align-items: center;
 }
 
 /* SELECTOR COMBINADO (>) PARA SELECCIONAR LOS ELEMENTOS DE TIPO HIJO QUE SE ESTAN AGREGANDO  */
